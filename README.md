@@ -11,7 +11,8 @@ WeatherService é um aplicativo Java que utiliza a API do OpenWeather para obter
 ## Pré-requisitos
 
 - Java 11 ou superior
-- Biblioteca Gson (disponível em `lib/gson-2.8.6.jar`)
+- Biblioteca Gson (disponível em https://jarcasting.com/artifacts/com.google.code.gson/gson/2.8.6/)
+- Uma chave de API do OpenWeatherMap (https://openweathermap.org/)
 
 ## Instalação
 
@@ -21,7 +22,13 @@ WeatherService é um aplicativo Java que utiliza a API do OpenWeather para obter
     cd WeatherService
     ```
 
-2. Compile o projeto:
+2. Adicione a biblioteca Gson ao seu projeto:
+    ```sh
+    Baixe o arquivo gson-2.8.6.jar e coloque-o no diretório lib/
+    Certifique-se de que o arquivo esteja no caminho correto: `lib/gson-2.8.6.jar`
+    ```
+
+3. Compile o projeto:
     ```sh
     javac -cp lib/gson-2.8.6.jar -d bin src/WeatherService.java
     ```
