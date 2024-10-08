@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter;
 
 // Classe principal que contém métodos para obter informações meteorológicas.
 public class WeatherService {
-    private static final String API_KEY = "8d436ea58b054c999aece3d5c6b375e6";
+    private static final String API_KEY = "YOUR_API_KEY";
     private static final String BASE_URL = "https://api.openweathermap.org/data/2.5/";
 
     // Método principal que inicia a execução do programa.
